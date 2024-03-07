@@ -1,0 +1,65 @@
+* {
+    background-color: #081b29;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    margin-bottom: 50px;
+}
+
+table {
+    color: black; /* Set text color for the entire table */
+    background-color:#081b29 ; /* Set background color for the entire table */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table th,
+table td {
+    border: 1px solid b; /* Optional: Add borders to cells */
+    padding: 10px; /* Optional: Add padding to cells */
+}
+
+
+table th {
+    background-color: gray; /* Set background color for table header cells */
+}
+
+table td {
+    background-color: lightgreen; /* Set background color for table data cells */
+}
+.navbar {
+    margin-top: 10px;
+    margin-left: 70%;
+
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+
+.pierdut{
+    background-color: lightcoral;
+    color: black;
+}
+.navbar a.active{
+
+    color: #00abf0
+}
